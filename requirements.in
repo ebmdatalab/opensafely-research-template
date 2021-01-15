@@ -22,7 +22,7 @@ tinynetrc
 # For more background on this see:
 # https://github.com/opensafely/cohort-extractor/pull/286
 #
-https://github.com/opensafely/ctds-binary/raw/b76175dd04baace2327518a78536d35bac6c7e2b/dist/ctds-1.12.0-cp37-cp37m-manylinux2014_x86_64.whl ; sys_platform == "linux"
+https://github.com/opensafely/ctds-binary/raw/9466f4bdb8eb70318256115c3bbb6b3ecc9351d0/dist/ctds-1.13.0-cp38-cp38-manylinux2014_x86_64.whl ; sys_platform == "linux"
 
 # We still use pyODBC in our tests because we use SQLAlchemy to set up our test
 # data and there's currently no SQLAlchemy adapter for cTDS. I managed to get
